@@ -22,21 +22,25 @@ it has Clent(User), Artist and Work tables in the database. The links to access 
 
  
 ```python
-$ virtualenv venv
+$ py -m venv venv
 ```
 
 To activate the virtual environment, execute the below command.
 
 ```python
-$ source venv/Script/activate
+$ source venv/Scripts/activate
 ```
 Clone this repository in the projects' working directory by executing the command below.
 
 ```python
 $ git clone https://github.com/ajaoooluseyi/works-api.git
+$ cd works_api
 ```
 
-* Install all the required dependencies 
+* Install all the required dependencies
+```python
+$ pip install -r requirements.txt
+```
 
 This api uses restframework.permissions for Authentication.
 * Superuser
